@@ -2,7 +2,7 @@
 
 import { Suspense, useState } from 'react'
 import { useSuspenseQuery } from '@tanstack/react-query'
-import 한국전력공사API from '@/api/전기차 충전/한국전력공사API'
+import 한국전력공사API from '@/api/전기차충전/한국전력공사API'
 import { Input } from '@/components/ui/input'
 import {
   Select,

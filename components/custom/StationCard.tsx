@@ -1,4 +1,4 @@
-import { Station } from '@/api/전기차 충전/types'
+import { Station } from '@/api/전기차충전/types'
 import useFavoriteStore from '@/store/favoriteStore'
 import {
   Card,

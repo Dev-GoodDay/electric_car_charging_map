@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input'
 import { useSuspenseQuery } from '@tanstack/react-query'
 import useFavoriteStore from '@/store/favoriteStore'
 import StationCard from '@/components/custom/StationCard'
-import 한국전력공사API from '@/api/전기차 충전/한국전력공사API'
+import 한국전력공사API from '@/api/전기차충전/한국전력공사API'
 
 export default function FavoritePage() {
   const [address, setAddress] = useState<string>('')
