@@ -5,7 +5,7 @@ import { expect, test } from '@playwright/test'
 // Playwright click() does not trigger navigation.
 // Using dispatchEvent as a workaround.
 
-test.describe('라우팅 테스트', () => {
+test.describe('@critical 라우팅 테스트', () => {
   test('충전소 검색 페이지 이동', async ({ page }) => {
     // 홈 페이지로 이동
     await page.goto('http://localhost:3000/')
