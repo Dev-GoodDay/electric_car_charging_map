@@ -9,6 +9,7 @@ export default function Home() {
         <Button asChild>
           <Link href="/station">충전소 검색</Link>
         </Button>
+
         <Button asChild>
           <Link href="/favorite">즐겨찾기</Link>
         </Button>
