@@ -23,6 +23,6 @@ test.describe('라우팅 테스트', () => {
     await page.getByText('즐겨찾기').dispatchEvent('click')
     await page.waitForURL('**/favorite')
     // 새로운 URL이 'favorite'인지 확인
-    await expect(page).toHaveURL('http://localhost:3000/best')
+    await expect(page).toHaveURL('http://localhost:3000/favorite')
   })
 })
